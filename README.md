@@ -76,7 +76,7 @@ EduCounsel-Pro/
 ├── .env                    # Environment variables
 ├── app.js                  # Main application file
 └── package.json            # Project metadata and dependencies
-
+```
 ## API Endpoints
 
 ### User Endpoints
