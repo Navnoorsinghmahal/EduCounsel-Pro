@@ -170,13 +170,8 @@ EduCounsel Pro relies on the following dependencies:
 - **MySQL**: A popular relational database management system used to manage and store the application's data.
 - **Nodemailer**: A module for Node.js applications to send emails, used for handling email notifications and password resets.
 - **Razorpay**: A payment gateway service integrated for processing payments.
-- **bcryptjs**: A library for hashing passwords securely.
 - **jsonwebtoken**: A library for creating and verifying JSON Web Tokens for authentication.
 - **dotenv**: A module to load environment variables from a `.env` file into `process.env`.
 - **body-parser**: Middleware to handle incoming request data, such as form submissions.
-- **cors**: Middleware for enabling Cross-Origin Resource Sharing, allowing the server to accept requests from different domains.
-- **express-session**: Middleware for managing user sessions.
-- **morgan**: HTTP request logger middleware for Node.js, useful for logging requests to the server.
 - **mysql2**: A MySQL client for Node.js with Promise support.
-- **pg**: PostgreSQL client for Node.js (if using PostgreSQL for any part of the project).
-- **axios**: A promise-based HTTP client for making HTTP requests from the browser or Node.js.
+
