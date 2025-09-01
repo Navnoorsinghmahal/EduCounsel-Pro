@@ -20,10 +20,16 @@ This repository contains the source code for EduCounsel Pro, a comprehensive stu
     cd EduCounsel-Pro
     ```
 
-2. **Install dependencies:**
+2. **Option A: Install dependencies:**
     ```sh
     npm install
     ```
+**Option B: Using Docker**
+    ```sh
+    docker build -t edu-app .
+    docker run -p 3000:3000 edu-app
+    ```
+    > The app will start at [http://localhost:3000](http://localhost:3000) and connect to your MySQL database.
 
 3. **Set up the database:**
     - Create a MySQL database.
